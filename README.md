@@ -15,7 +15,7 @@ docker compose up
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:5001
 
-To stop the application:
+### To stop the application:
 
 docker compose down
 ## 🧩 Services

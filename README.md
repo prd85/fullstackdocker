@@ -1,4 +1,4 @@
-Application Stack (Docker Compose)
+#Application Stack (Docker Compose)
 📌 Overview
 
 This project defines a multi-container application using Docker Compose. It consists of a frontend, backend, and a PostgreSQL database, all connected through a custom bridge network.

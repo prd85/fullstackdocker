@@ -10,14 +10,14 @@ The setup is designed for local development and testing, providing a simple way 
 - Docker
 - Docker Compose
 ### Run the application
-docker-compose up --build
+docker compose up
 ### Access services
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:5001
 
 To stop the application:
 
-docker-compose down
+docker compose down
 ## 🧩 Services
 ### Frontend
 - Built from ./frontend

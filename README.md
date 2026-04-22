@@ -27,10 +27,10 @@ docker-compose down
 - Built from ./backend
 - Exposed on port 5001 (mapped to container port 5000)
 - Connects to the database using environment variables:
-DB_HOST=database
-DB_USER=postgres
-DB_PASS=password
-DB_NAME=postgres
+  - DB_HOST=database
+  - DB_USER=postgres
+  - DB_PASS=password
+  - DB_NAME=postgres
 ### Database
 - Uses **PostgreSQL 16 (Alpine)**
 - Persistent storage via Docker volume (pgdata)
@@ -41,5 +41,5 @@ DB_NAME=postgres
 ## 💾 Volumes
 - **pgdata:** Stores PostgreSQL data to persist across container restarts
 ## 📝 Notes
-- This setup is intended for development purposes
+- This setup is intended for development & testing purposes
 - Default credentials are used; update them for use case
